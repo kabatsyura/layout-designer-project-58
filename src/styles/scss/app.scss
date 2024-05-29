@@ -5,10 +5,98 @@
   @return #{$result};
 }
 
+/* fonts properties */
+
+@font-face {
+  font-family: "Neucha";
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open_Sans";
+  src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+
+body {
+  font-family: "Open_Sans";
+  color: #2A2626;
+  line-height: 1.6em;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Neucha";
+  color: #2A2626;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+/* position properties */
+
 .block-size {
-  position:absolute;
-  margin: 0 auto;
+  position: absolute;
+  margin: 100px auto;
   display: block;
-  width: 1440px;
+  width: 1110px;
   height: 914px;
 }
+
+body {
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* box-model properties */
+
+/* visual properties */
+.white-bckgrnd {
+  background-color: #fff;
+}
+
+.half-opacity-bckgrnd {
+  background-color: #d7ccc0;
+}
+
+.light-bckgrnd {
+  background-color: #f5f4f0;
+}
+
+.main-bckgrnd {
+  background-color: #fe8a02;
+}
+
+.main-dark-bckgrnd {
+  background-color: #42413c;
+}
+
+.dark-bckgrnd {
+  background-color: #2a2626;
+}
+
+.dark-half-opacity-bckgrnd {
+  background-color: #908d8b;
+}
+
+.brown-bckgrnd {
+  background-color: #b09a81;
+}
+
+.blue-bckgrnd {
+  background-color: #1085c5;
+}
+
+/* animation properties */
+
+/* other properties */
