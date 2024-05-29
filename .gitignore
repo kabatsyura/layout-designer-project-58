@@ -2,3 +2,6 @@
 /node_modules/
 package-lock.json
 .DS_Store
+src/styles/scss/app.css
+src/styles/scss/app.css.map
+src/styles/variables.css

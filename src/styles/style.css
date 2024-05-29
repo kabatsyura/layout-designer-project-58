@@ -1,7 +1,11 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
 
-  color: #fff;
+
+.block-size {
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  width: 1440px;
+  height: 914px;
 }
