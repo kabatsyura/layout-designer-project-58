@@ -12,9 +12,11 @@
     "stylelint": "^15.2.0",
     "stylelint-config-standard": "^30.0.1",
     "stylelint-config-standard-scss": "^7.0.1",
-    "stylelint-scss": "^4.4.0",
-    "surge": "^0.9.0"
+    "stylelint-scss": "^4.4.0"
   },
   "author": "Nikita Mikhaylov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.23.1"
+  }
 }
